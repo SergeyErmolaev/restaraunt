@@ -1,0 +1,113 @@
+.hero {
+  box-sizing: border-box;
+  margin-bottom: 55px;
+  background-image: url('/img/photos/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin-bottom: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 255px;
+}
+
+@media (min-width: 768px) {
+  .hero__wrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: auto;
+  }
+}
+
+.hero__card {
+  position: relative;
+  bottom: -55px;
+  box-sizing: border-box;
+  padding: 24px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+}
+
+@media (min-width: 768px) {
+  .hero__card {
+    position: static;
+    padding: 38px;
+    width: auto;
+    max-width: 60%;
+  }
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: var(--text-size-xl);
+  font-weight: 400;
+  line-height: var(--text-height-lg);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero__title {
+    margin-top: 0;
+    margin-bottom: 54px;
+    font-size: var(--text-size-xxl);
+    font-weight: 400;
+    line-height: var(--text-height-xxl);
+    text-align: left;
+  }
+}
+
+.hero__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hero__description {
+    flex-direction: row;
+  }
+}
+
+.hero__cuisine {
+  margin-bottom: var(--gutter-md);
+  font-size: var(--text-size-sm);
+  line-height: var(--text-height-xxs);
+  color: var(--color-text-secondary);
+}
+
+@media (min-width: 768px) {
+  .hero__cuisine {
+    margin-bottom: 0;
+  }
+}
+
+.hero__delivery {
+  position: relative;
+  padding: var(--gutter-sm) var(--gutter-md);
+  border-radius: var(--gutter-md);
+  background-color: var(--color-theme-dark);
+  font-size: var(--text-size-xs);
+  line-height: var(--text-height-xxs);
+  color: var(--color-text-contrast);
+}
+
+@media (min-width: 768px) {
+  .hero__delivery {
+    right: -9px;
+  }
+}

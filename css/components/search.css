@@ -1,0 +1,18 @@
+.search {
+  padding-top: 56px;
+}
+
+.search__input {
+  display: block;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid var(--color-theme-gray-a3);
+  width: 100%;
+  font-size: var(--text-size-md);
+  line-height: var(--text-height-md);
+  color: var(--color-text-secondary);
+}
+
+.search__input::placeholder {
+  opacity: 0.5;
+}

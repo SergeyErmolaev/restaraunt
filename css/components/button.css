@@ -1,0 +1,31 @@
+.button {
+  margin-left: var(--gutter-sm);
+  margin-right: var(--gutter-sm);
+  vertical-align: middle;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--color-theme-gray-a1);
+}
+
+.button:focus {
+  background-color: var(--color-theme-gray-a2);
+}
+
+.button_default {
+  padding: 7px 20px;
+  border: 1px solid #e0e0e0;
+  font-size: var(--text-size-xs);
+  font-weight: 500;
+  line-height: var(--text-height-md);
+  color: var(--color-text-main);
+}
+
+.button_icon {
+  padding: 8px;
+  border: none;
+  font-size: 0;
+}

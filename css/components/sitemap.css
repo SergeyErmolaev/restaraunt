@@ -1,0 +1,19 @@
+.sitemap {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.sitemap__item {
+  margin-bottom: var(--gutter-md);
+}
+
+.sitemap__link {
+  text-decoration: none;
+}
+
+.sitemap__link:hover,
+.sitemap__link:focus {
+  text-decoration: underline;
+}

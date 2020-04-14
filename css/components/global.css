@@ -1,0 +1,45 @@
+:root {
+  --color-theme-light: #fff;
+  --color-theme-dark: #262626;
+  --color-theme-accent: #59bd5a;
+
+  --color-theme-gray-a1: rgba(117, 117, 117, 0.04);
+  --color-theme-gray-a2: rgba(117, 117, 117, 0.2);
+  --color-theme-gray-a3: rgba(117, 117, 117, 0.3);
+  --color-theme-light-a1: rgba(255, 255, 255, 0.4);
+  
+  --color-text-main: #1d1d1d;
+  --color-text-secondary: #626262;
+  --color-text-contrast: #fff;
+  --color-text-accent: #49a144;
+  
+  --color-select: #3b3b3b;
+  
+  --font-family: 'Roboto', sans-serif;
+
+  --text-size-xxs: 11px;
+  --text-size-xs: 13px;
+  --text-size-sm: 14px;
+  --text-size-md: 16px;
+  --text-size-lg: 22px;
+  --text-size-xl: 24px;
+  --text-size-xxl: 36px;
+
+  --text-height-xxxs: 13px;
+  --text-height-xxs: 15px;
+  --text-height-xs: 19px;
+  --text-height-sm: 21px;
+  --text-height-md: 24px;
+  --text-height-lg: 28px;
+  --text-height-xl: 34px;
+  --text-height-xxl: 42px;
+  
+  --gutter-xs: 4px;
+  --gutter-sm: 8px;
+  --gutter-md: 16px;
+  --gutter-lg: 32px;
+}
+
+html {
+  font-family: var(--font-family);
+}

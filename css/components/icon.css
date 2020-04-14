@@ -1,0 +1,32 @@
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.icon_cart {
+  background-image: url('/img/icon-basket.svg');
+  background-size: contain;
+}
+
+.icon_world {
+  background-image: url('/img/world.svg');
+  background-size: 16px;
+}
+
+.icon_facebook {
+  background-image: url('/img/facebook.svg');
+  background-size: contain;
+}
+
+.icon_twitter {
+  background-image: url('/img/twitter.svg');
+  background-size: contain;
+}
+
+.icon_instagram {
+  background-image: url('/img/instagram.svg');
+  background-size: contain;
+}

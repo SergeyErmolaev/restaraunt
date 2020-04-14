@@ -1,0 +1,33 @@
+.card {
+  height: 100%;
+}
+
+.card__link {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card__link:hover {
+  background-color: var(--color-theme-gray-a1);
+}
+
+.card__link:focus {
+  background-color: var(--color-theme-gray-a2);
+}
+
+.card__image {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+@media (min-width: 576px) {
+  .card__image {
+    height: 256px;
+  }
+}

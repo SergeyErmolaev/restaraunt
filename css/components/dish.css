@@ -1,0 +1,130 @@
+.dish {
+  margin-bottom: var(--gutter-md);
+}
+
+@media (min-width: 768px) {
+  .dish {
+    margin-bottom: var(--gutter-lg);
+  }
+}
+
+@media (min-width: 768px) {
+  .dish {
+    margin-bottom: 49px;
+  }
+}
+
+.dish__link {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  height: 102px;
+  padding-right: 120px;
+  border-bottom: 1px solid var(--color-theme-gray-a2);
+  border-radius: 2px;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .dish__link {
+    height: 160px;
+    padding-top: var(--gutter-md);
+    padding-bottom: var(--gutter-md);
+    padding-left: 24px;
+    padding-right: 216px;
+    border: 1px solid var(--color-theme-gray-a2);
+  }
+}
+
+@media (min-width: 992px) {
+  .dish__link {
+    padding-left: var(--gutter-md);
+    padding-right: 186px;
+  }
+}
+
+.dish__link:hover {
+  background-color: var(--color-theme-gray-a1);
+}
+
+.dish__link:focus {
+  background-color: var(--color-theme-gray-a2);
+}
+
+
+.dish__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 102px;
+  height: 102px;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .dish__image {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dish__image {
+    width: 170px;
+  }
+}
+
+.dish__name {
+  margin-top: 0;
+  margin-bottom: var(--gutter-xs);
+  font-weight: 400;
+  font-size: var(--text-size-sm);
+  line-height: var(--text-height-md);
+  color: var(--color-text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .dish__name {
+    font-size: var(--text-size-md);
+  }
+}
+
+.dish__description {
+  margin-top: 0;
+  margin-bottom: var(--gutter-xs);
+  font-weight: 400;
+  font-size: var(--text-size-xs);
+  line-height: var(--text-height-sm);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dish__price {
+  position: absolute;
+  left: 0;
+  bottom: var(--gutter-md);
+  margin: 0;
+  font-weight: 500;
+  font-size: var(--text-size-md);
+  line-height: var(--text-height-sm);
+  color: var(--color-text-main);
+}
+
+@media (min-width: 768px) {
+  .dish__price {
+    left: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dish__price {
+    left: var(--gutter-md);
+  }
+}
